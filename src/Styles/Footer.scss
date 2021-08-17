@@ -1,0 +1,40 @@
+footer {
+    width: 100%;
+    height: 162px;
+    background: #2E8755;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 21px;
+}
+
+footer * {
+    color: white;
+}
+
+footer a {
+    font-family: Montserrat;
+    text-decoration: none;
+
+}
+
+footer .landing {
+    display: inline-block;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    /*font: normal normal 300 16px/19px;*/
+}
+
+footer .smaller {
+    font-weight: 600;
+    font-size: 12px;
+    /*font: normal normal 600 12px/15px;*/
+}
+
+footer .allrights {
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    opacity: .75;
+}

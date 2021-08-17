@@ -1,0 +1,18 @@
+.location p {
+    font: normal normal 300 10px/13px Montserrat;
+    color: #231D19;
+    margin: 0;
+}
+
+.location span {
+    vertical-align: middle;
+    font-size: 14px;
+    color: #2DA661;
+}
+
+.location .locName {
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0;
+    color: black;
+}
+

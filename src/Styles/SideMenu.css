@@ -1,0 +1,62 @@
+.body-scroll-lock {
+    overflow: hidden;
+}
+
+.sideMenu {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: white;
+    padding: 0;
+    overflow: hidden;
+    transition: .4s;
+    z-index: 1;
+    overflow-y: scroll;
+}
+
+@media only screen and (min-width: 800px) {
+    .sideMenu {
+        background: transparent;
+        position: absolute;
+        top: 20px;
+        height: auto;
+        overflow-y: auto;
+    }
+}
+
+.sideMenu ul {
+    padding: 0;
+}
+
+.sideMenu .subList {
+    margin-left: 51px;
+
+    overflow: hidden;
+    transition: .3s;
+}
+
+.sideMenu .item {
+    display: inline-block;
+    padding: 12px;
+    padding-bottom: 12px;
+    height: 28px;
+    font: normal normal 600 17px/23px Montserrat;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.sideMenu .subItem {
+    font: normal normal 600 14px/18px Montserrat;
+    color: #105D32;
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.sideMenu * {
+    color: #105D32;
+    letter-spacing: 1.89px;
+    vertical-align: middle;
+}

@@ -1,0 +1,36 @@
+.searchResult {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 13px;
+}
+
+@media only screen and (min-width: 800px) {
+    .searchResult {
+        margin-left: 230px;
+    }
+}
+
+.searchResult .itemsFound {
+    display: inline-block;
+    text-align: left;
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+}
+
+.searchResult select {
+    width: 125px;
+    float: right;
+    text-overflow: ellipsis;
+    background: transparent;
+    border: none;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #2E8755;
+}
+
+.searchResult .localization {
+    text-align: left;
+    font: normal normal 300 10px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #231D19;
+}

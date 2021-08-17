@@ -1,0 +1,75 @@
+.storeCardContainer {
+    text-align: center;
+}
+
+.storeCard {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 15px;
+    width: 344px;
+    height: 195px;
+    background: white;
+    border: .5px solid #33C070;
+    text-align: justify;
+    margin-top: 25px;
+}
+
+@media only screen and (min-width: 800px) {
+    .storeCardContainer {
+        text-align: left;
+    }
+
+    .storeCard {
+        margin: 8px;
+    }
+}
+
+.storeCard .title,
+.storeCard .priceTag,
+.storeCard .address,
+.storeCard .onCash,
+.storeCard .box {
+    display: inline-block;
+}
+
+.storeCard .title {
+    font: normal normal 500 16px/19px Montserrat;
+    color: #231D19;
+}
+
+.storeCard .priceTag {
+    justify-self: end;
+    font: normal normal bold 18px/22px Montserrat;
+    color: #2DA661;
+}
+
+.storeCard .address {
+    font: normal normal normal 12px/15px Montserrat;
+    color: #231D19;
+    opacity: .6;
+}
+
+.storeCard .onCash {
+    justify-self: end;
+    text-align: right;
+    width: 73px;
+    margin-left: 0px;
+    font: normal normal 300 12px/12px Montserrat;
+    color: #231D19;
+    opacity: 0.65;
+}
+
+.storeCard .box {
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    vertical-align: middle;
+    text-align: center;
+    background: rgba(51, 192, 112, 0.6);
+    font: normal normal 500 13px/24px Montserrat;
+    text-transform: uppercase;
+    color: #105D32;
+}

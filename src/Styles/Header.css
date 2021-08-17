@@ -1,0 +1,29 @@
+header {
+    box-sizing: border-box;
+    background: #33C070;
+    text-align: center;
+    padding-top: 22px;
+}
+header * {
+    margin: 0;
+    color: white;
+    font: normal normal normal 18px/22px Montserrat;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+    margin-bottom: 22px;
+}
+
+header svg {
+    fill: white;
+}
+/*
+@media only screen and (min-width: 800px) {
+    header {
+        height: 50px;
+        padding-top: 6px;
+    }
+}
+*/

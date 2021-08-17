@@ -1,0 +1,34 @@
+.searchContainer {
+    background: #2DA661;
+    text-align: center;
+}
+
+.searchBar {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 344px;
+    height: 48px;
+    margin: 8px;
+    border: none;
+    border-radius: 2px;
+    background: white;
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.searchBar input {
+    width: 90%;
+    height: 100%;
+    vertical-align: middle;
+    border: none;
+    font-size: 14px/71px;
+    font-family: Montserrat;
+}
+
+.searchBar span {
+    color: #2E8755;
+    vertical-align: middle;
+}

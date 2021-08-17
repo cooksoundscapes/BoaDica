@@ -1,0 +1,12 @@
+.multiSlider {
+    display: inline-block;
+    position: relative;
+}
+
+.multiSlider input {
+    position: absolute;
+}
+
+.multiSlider input::-webkit-slider-thumb {
+    pointer-events: all;
+}

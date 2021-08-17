@@ -1,0 +1,78 @@
+.productView {
+    padding: 8px;
+    padding-top: 24px;
+}
+
+@media only screen and (min-width: 800px) {
+    .productView {
+        margin-left: 230px;
+    }
+}
+
+.productView .info {
+    box-sizing: border-box;
+    width: 344px;
+    height: 134px;
+    padding: 12px;
+}
+
+.productView .prodImage {
+    display: inline-block;
+    width: 108px;
+    height: 108px;
+    float: left;
+    cursor: pointer;
+}
+
+.productView .sortStores {
+    margin-top: 23px;
+}
+
+.productView .sortStores span {
+    font: normal normal 500 18px/22px Montserrat;
+    color: black;
+}
+
+.productView .sortStores select {
+    width: auto;
+    float: right;
+    text-overflow: ellipsis;
+    background: transparent;
+    border: none;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #2E8755;
+}
+
+.info .title,
+.info .description,
+.info .vendor {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 200px;
+    height: 2.4em;
+    margin-top: 0;
+    margin-left: 12px;
+    margin-bottom: 8px;
+    text-align: left;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.info .title {
+    font: normal normal 600 16px/19px Montserrat;
+    color: #231D19;
+}
+
+.info .description {
+    font: normal normal normal 12px/16px Montserrat;
+    color: #231D19;
+}
+
+.info .vendor {
+    text-decoration: underline;
+    font: normal normal 600 14px/18px Montserrat;
+    color: #2DA661;
+    cursor: pointer;
+}

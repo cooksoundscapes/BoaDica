@@ -1,0 +1,150 @@
+.transparent-btn {
+    background: transparent;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font: normal normal bold 18px/22px Montserrat;
+}
+
+.transparent-btn:hover {
+    background: #ffffff44;
+}
+
+.onMenu-btn {
+    background: transparent;
+    border: none;
+    padding: 12px;
+    margin-left: 0;
+    margin-right: 90px;
+    border-radius: 2px;
+    text-align: center;
+    color: #105D32;
+    font: normal normal bold 21px/25px Montserrat;
+    transition: .7s;
+}
+
+@media only screen and (min-width: 800px) {
+    .onMenu-btn {
+        background: #2DA661;
+        color: white;
+        margin-right: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-radius: 0;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        font: normal normal bold 14px/16px Montserrat;
+    }
+
+    .onMenu-unfocused {
+        background: #2E8755;
+    }
+}
+.filled-btn {
+    background: white;
+    border: none;
+    border-radius: 2px;
+    color: #2E8755;
+    letter-spacing: 1.78px;
+    font: normal normal 600 16px/20px Montserrat;
+}
+
+.filled-btn:hover {
+    border: 1px solid #33C070;
+}
+
+.transparent-btn:active,
+.outlined-btn:active,
+.filled-btn:active {
+    transform: scale(.95);
+}
+
+.onMenu-btn:active {
+    transform: none;
+    background: #33C070;
+}
+
+.outlined-btn {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 2px;
+    color: white;
+    letter-spacing: 1.78px;
+    font: normal normal 600 16px/20px Montserrat;
+}
+
+.outlined-btn:hover {
+    background: #33C070;
+}
+.back-btn {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 24px;
+    left: 5px;
+    background: transparent;
+    color: white;
+    border: none;
+    float: left;
+    padding: 8px;
+    transition: .7s;
+    z-index: 2;
+}
+
+.recoiled-btn {
+    padding: 0;
+    margin: 0;
+    margin-left: 8px;
+    height: 2em;
+    width: 214px;
+    border: none;
+    box-sizing: border-box;
+    background: rgba(51,192,112,0.6);
+    font: normal normal 600 12px/24px Montserrat;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #105D32;
+    transition: .5s;
+}
+
+.greenOutlined-btn {
+    box-sizing: border-box;
+    padding: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 8px;
+    margin-right: 8px;
+    background: transparent;
+    border: 2px solid #2DA661;
+    border-radius: 2px;
+    text-align: center;
+    font: normal normal 600 14px/20px Montserrat;
+    letter-spacing: 1.55px;
+    color: #2DA661;
+}
+
+.greenOutlined-btn span {
+    vertical-align: middle;
+    font-size: 18px;
+}
+.transparent-btn,
+.outlined-btn,
+.filled-btn {
+    box-sizing: border-box;
+    width: 164px;
+    height: 48px;
+    text-align: center;
+    margin: 8px;
+    transition: .2s;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.close-btn {
+    background: transparent;
+    border: none;
+}
+
+button span {
+    vertical-align: middle;
+}

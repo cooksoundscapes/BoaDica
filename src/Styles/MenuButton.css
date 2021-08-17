@@ -1,0 +1,61 @@
+@media only screen and (min-width: 800px) {
+    .menu-btn {
+        display: none;
+    }
+}
+
+.menu-btn {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 24px;
+    left: 5px;
+    background: transparent;
+    color: white;
+    border: none;
+    float: left;
+    padding: 8px;
+    transition: .7s;
+    z-index: 2;
+}
+
+.menu-btn input {display: none;}
+
+.menu-btn label,
+.menu-btn label:before,
+.menu-btn label:after {
+    display: inline-block;
+    position: absolute;
+    width: 22px;
+    height: 2px;
+    background: white;
+    transition: .7s;
+    border-radius: 1px;
+}
+
+.menu-btn label:before,
+.menu-btn label:after {
+    content:'';
+}
+
+.menu-btn label:before {
+    top: 6px;
+}
+
+.menu-btn label:after {
+    top: 12px;
+}
+
+.menu-btn input:checked+label:before,
+.menu-btn input:checked+label:after {
+    background: #105D32;
+}
+
+.menu-btn input:checked+label:before {
+    transform: rotate(135deg);
+}
+
+.menu-btn input:checked+label:after {
+    transform: rotate(45deg);
+    top: 6px;
+}
